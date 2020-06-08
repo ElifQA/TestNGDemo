@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20249" started-at="2020-05-25T21:22:44 CDT" finished-at="2020-05-25T21:23:04 CDT">
+    <groups>
+      <group name="smoke">
+        <method signature="Dataprovider.addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:class01.Dataprovider@1dfe2924]" name="addEmployee" class="class01.Dataprovider"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="20249" started-at="2020-05-25T21:22:44 CDT" finished-at="2020-05-25T21:23:04 CDT">
+      <class name="class01.Dataprovider">
+        <test-method status="PASS" signature="openBrowserNavigateOrangeHRM()[pri:0, instance:class01.Dataprovider@1dfe2924]" name="openBrowserNavigateOrangeHRM" is-config="true" duration-ms="7824" started-at="2020-05-25T21:22:44 CDT" finished-at="2020-05-25T21:22:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserNavigateOrangeHRM -->
+        <test-method status="PASS" signature="login()[pri:0, instance:class01.Dataprovider@1dfe2924]" name="login" is-config="true" duration-ms="1589" started-at="2020-05-25T21:22:52 CDT" finished-at="2020-05-25T21:22:54 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:class01.Dataprovider@1dfe2924]" name="addEmployee" duration-ms="4463" started-at="2020-05-25T21:22:54 CDT" data-provider="getData" finished-at="2020-05-25T21:22:58 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jack8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smith9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[johnsmith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Johnsmith123-=]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:class01.Dataprovider@1dfe2924]" name="logout" is-config="true" duration-ms="573" started-at="2020-05-25T21:22:58 CDT" finished-at="2020-05-25T21:22:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:class01.Dataprovider@1dfe2924]" name="login" is-config="true" duration-ms="1078" started-at="2020-05-25T21:22:59 CDT" finished-at="2020-05-25T21:23:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:class01.Dataprovider@1dfe2924]" name="addEmployee" duration-ms="3307" started-at="2020-05-25T21:23:00 CDT" data-provider="getData" finished-at="2020-05-25T21:23:03 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trump]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Brown4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jamestrump]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Jamestrump123-=]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:class01.Dataprovider@1dfe2924]" name="logout" is-config="true" duration-ms="579" started-at="2020-05-25T21:23:03 CDT" finished-at="2020-05-25T21:23:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:class01.Dataprovider@1dfe2924]" name="closeBrowser" is-config="true" duration-ms="780" started-at="2020-05-25T21:23:04 CDT" finished-at="2020-05-25T21:23:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- class01.Dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
